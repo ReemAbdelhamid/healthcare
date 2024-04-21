@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("../images/medical1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%; 
+    text-decoration: none;
+    list-style-type:none ;
+}
+.navbar .nav-item a{
+  margin-left: 40px;
+}
+.navbar a{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+.navbar .nav-item a:hover {
+    color: #0ef;
+}
+.container {
+    margin-top: 170px;
+    margin-left: -90px;
+    height: 300px;
+}
+.container h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+}
+@media(max-width:767px) {
+    .container h1{
+        width: 100%;
+        padding-left: 90px;
+    }
+    .container .btn-primary {
+        margin-left: 90px;
+    }
+}
+.container .btn-primary {
+    color: #fff;
+    background-color: #21ddebe6;
+    border-color: #21ddebe6;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: -70px;
+}
+.btn-primary:hover {
+    border: 1px solid #21ddebe6;
+    background:none;
+    box-shadow: 0 0 50px #0ef;
+}
+/*---------end home------*/
+.active {
+    padding: 20px;
+}
+.active h1 {
+   color:rgb(207, 91, 14);
+}
+.active h3 {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.active p{
+   color: white;
+   width: 1200px;
+}
